@@ -1,0 +1,37 @@
+*{
+    font-family: Arial, Helvetica, sans-serif;
+}
+.image{
+    margin: auto;
+    width: 230px;
+}
+
+#cane{
+    border: 1px solid black;
+    display: flex;
+}
+.portion1{
+    flex: 1;
+    height: 400px;
+    border: 1px solid black;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.portion2{
+    flex: 1;
+    height: 400px;
+    border: 1px solid black;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.inline{
+    display: inline-block;
+}
+p{
+    display: inline-block;
+}
+

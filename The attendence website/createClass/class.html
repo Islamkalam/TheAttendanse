@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Class Detail</title>
+
+  <!-- CSS only -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-Zenh87qX5JnK2Jl0vWa8Ck2rdkQ2Bzep5IDxbcnCeuOxjzrPF/et3URy9Bv1WTRi" crossorigin="anonymous">
+
+  <!-- JavaScript Bundle with Popper -->
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-OERcA2EqjJCMA+/3y+gxIOqMEjwtxJY7qPCqsdltbNJuaOe923+mo//f6V8Qbsw3"
+    crossorigin="anonymous"></script>
+  <link rel="stylesheet" href="class.css">
+</head>
+
+<body>
+ 
+  
+  <nav class="navbar navbar-expand-lg  navbar-dark bg-primary">
+    <div class="container-fluid">
+      <a class="navbar-brand" href="#">Create class</a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+          <li class="nav-item">
+            <a class="nav-link active" aria-current="page" href="../index.html">Home page</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link active" aria-current="page" href="../student detail/stu.html">Student detail</a>
+          </li>
+          
+        </ul>
+       
+      </div>
+    </div>
+  </nav>
+
+  <div id="input-detail">
+    <div>
+      <label>Class timings</label>
+      <input class="input" type="time" id="time">
+    </div>
+    <div>
+      <label>Shedule of classes</label>
+      <input class="input" id="shedule">
+    </div>
+    <div>
+      <label>Teacher's name</label>
+      <input class="input" id="teacher">
+    </div>
+    <div>
+      <label>Section name</label>
+      <input class="input" id="section">
+    </div>
+    <div>
+      <label>Course Name</label>
+      <input class="input" id="course">
+    </div>
+    <div>
+      <label>Batch Number</label>
+      <input class="input" id="batch">
+    </div>
+    <button onclick="classDetail()">Submit</button>
+  </div>
+  <script type="module" src="../config/firebase.js"></script>
+  <script type="module" src="class.js"></script>
+</body>
+
+</html>
